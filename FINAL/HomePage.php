@@ -258,12 +258,11 @@
                                     $DB = "lhoyzki_ordering";
 
                                     $connection = new mysqli($server,$username,$password,$DB); //connection
-
+                                  
                                     if(isset($_POST['Submit']))
                                     {
-                                        $customer_Feedback = $_POST["customer_Feedback"];
-                                        
 
+                                        $customer_Feedback = $_POST["customer_Feedback"];
 
                                         $sqlvar ="INSERT INTO feedback_tbl(customer_Feedback) VALUES
                                         ('{$customer_Feedback}')";
