@@ -249,14 +249,36 @@
                                 <h4 class="opinions"><span style="color: #f0ead6; font-family:'Comfortaa';">Your opinions matter to us</span></h4>
                                 <label for="feedbacks"><span style="color: #f0ead6; font-family: 'Comfortaa';"> Write your Feedbacks below:</span></label><br>
 
-                               
+                     <?php
+                        $server = "localhost";
+                            $username = "root";
+                            $password = "";
+                            $DB = "lhoyzki_ordering";
 
-                                 <form action="insertfeedback.php" method="POST">
+                            $connection = new mysqli($server,$username,$password,$DB); //connection
+                            
+                            if(isset($_POST['Submit']))
+                            {
+                                $customerID = uniqid();
+                                $customer_Feedback = $_POST["customer_Feedback"];
+                                
+                                $sqlvar ="INSERT INTO feedback_tbl(comments ,customerID) VALUES 
+                                ('$customer_Feedback','$customerID')";
+
+                                //var_dump($connection->query($sqlvar));
+                                //var_dump($sqlvar);
+                                $connection->query($sqlvar);
+                            }
+                        ?>
+
+                                 <form action="HomePage.php" onsubmit="myFunction()" method="POST">
+                                 
                                     <input textarea rows="7" cols="40" name="customer_Feedback"></textarea><br><br>
                                     <input type="Submit" name="Submit">
+   
                                 
                                 </form>
-
+                                
                             </li>
                         </ul>
                     </div>
@@ -286,7 +308,11 @@
                 }
             );
         });
+        function myFunction() {
+         alert("Thank you!!!");
+    }
     </script>
+
 
 </body>
 
