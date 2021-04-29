@@ -18,7 +18,7 @@
   <section id="header">
     <nav class="navbar navbar-expand-xl fixed-top navbar-light bg-custom">
       <div class="container">
-        <a class="navbar-brand" href="HomePage.html"><img id="navbarBrand" src="img/coloredlogo.png" style="margin-left: 30px;" width="90" height="60"><span>Lhoyzki</span></a>
+        <a class="navbar-brand" href="HomePage.php"><img id="navbarBrand" src="img/coloredlogo.png" style="margin-left: 30px;" width="90" height="60"><span>Lhoyzki</span></a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -26,18 +26,18 @@
 
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="HomePage.html">HOME</a>
+              <a class="nav-link" href="HomePage.php">HOME</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="HomePage.html #new">FAVORITES</a>
+              <a class="nav-link" href="HomePage.php #new">FAVORITES</a>
             </li>
 
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true">MENU</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                <a class="dropdown-item" href="milkshake.html">Milkshake</a>
-                <a class="dropdown-item" href="milktea.html">Milktea</a>
+                <a class="dropdown-item" href="milkshake.php">Milkshake</a>
+                <a class="dropdown-item" href="milktea.php">Milktea</a>
               </div>
             </li>
 
@@ -64,7 +64,7 @@
         <div class="col-md-4">
           <div class="card">
             <div class="card-body">
-              <a href="milktTaro.html">
+              <a href="milktTaro.php">
                 <img src="img/ClassicTaroMT.png" class="centerimage">
               </a>
               <br><br>
@@ -77,7 +77,7 @@
         <div class="col-md-4">
           <div class="card">
             <div class="card-body">
-              <a href="milktOkinawa.html">
+              <a href="milktOkinawa.php">
                 <img src="img/ClassicOkinawaMT.png" class="centerimage">
               </a>
               <br><br>
@@ -90,7 +90,7 @@
         <div class="col-md-4">
           <div class="card">
             <div class="card-body">
-              <a href="milktHokkaido.html">
+              <a href="milktHokkaido.php">
                 <img src="img/HokkaidoMT.png" class="centerimage">
               </a>
               <br><br>
@@ -104,7 +104,7 @@
           <br><br><br>
           <div class="card">
             <div class="card-body">
-              <a href="milktChoco.html">
+              <a href="milktChoco.php">
                 <img src="img/ChocolateMT.png" class="centerimage">
               </a>
               <br><br>
@@ -118,7 +118,7 @@
           <br><br><br>
           <div class="card">
             <div class="card-body">
-              <a href="milktRedVelvet.html">
+              <a href="milktRedVelvet.php">
                 <img src="img/RedVelvetMT.png" class="centerimage">
               </a>
               <br><br>
@@ -132,7 +132,7 @@
           <br><br><br>
           <div class="card">
             <div class="card-body">
-              <a href="milktWintermelon.html">
+              <a href="milktWintermelon.php">
                 <img src="img/ClassicWintermelonMT.png" class="centerimage">
               </a>
               <br><br>
@@ -146,7 +146,7 @@
           <br><br><br>
           <div class="card">
             <div class="card-body">
-              <a href="milktCaramel.html">
+              <a href="milktCaramel.php">
                 <img src="img/PremiumCaramelSugarMT.png" class="centerimage">
               </a>
               <br><br>
@@ -160,7 +160,7 @@
           <br><br><br>
           <div class="card">
             <div class="card-body">
-              <a href="milktCNC.html">
+              <a href="milktCNC.php">
                 <img src="img/CookiesNCream.png" class="centerimage">
               </a>
               <br><br>

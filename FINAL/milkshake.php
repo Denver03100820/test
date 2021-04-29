@@ -18,7 +18,7 @@
     <section id="header">
         <nav class="navbar navbar-expand-xl fixed-top navbar-light bg-custom">
             <div class="container">
-                <a class="navbar-brand" href="HomePage.html"><img id="navbarBrand" src="img/coloredlogo.png" style="margin-left: 30px;" width="90" height="60"><span>Lhoyzki</span></a>
+                <a class="navbar-brand" href="HomePage.php"><img id="navbarBrand" src="img/coloredlogo.png" style="margin-left: 30px;" width="90" height="60"><span>Lhoyzki</span></a>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -26,18 +26,18 @@
 
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="HomePage.html">HOME</a>
+                            <a class="nav-link" href="HomePage.php">HOME</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="HomePage.html #new">FAVORITES</a>
+                            <a class="nav-link" href="HomePage.php #new">FAVORITES</a>
                         </li>
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true">MENU</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                            <a class="dropdown-item" href="milkshake.html">Milkshake</a>
-                            <a class="dropdown-item" href="milktea.html">Milktea</a>
+                            <a class="dropdown-item" href="milkshake.php">Milkshake</a>
+                            <a class="dropdown-item" href="milktea.php">Milktea</a>
                             </div>
                         </li>
 
@@ -64,7 +64,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <a href="milkshChocoFudge.html">
+                        <a href="milkshChocoFudge.php">
                             <img src="img/ChocoFudgeWToppings1.png" class="centerimage">
                         </a>
                         <br><br>
@@ -77,7 +77,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <a href="milkshChocoKisses.html">
+                        <a href="milkshChocoKisses.php">
                             <img src="img/ChocoKissesWToppings.png" class="centerimage">
                         </a>
                         <br><br>
@@ -90,7 +90,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <a href="milkshBlackForest.html">
+                        <a href="milkshBlackForest.php">
                         <img src="img/CookiesNCream.png" class="centerimage">
                     </a>
                     <br><br>
@@ -104,7 +104,7 @@
                 <br><br><br>
                 <div class="card">
                     <div class="card-body">
-                        <a href="milkshCNC.html">
+                        <a href="milkshCNC.php">
                             <img src="img/CookiesNCream.png" class="centerimage">
                         </a>
                         <br><br>
@@ -118,7 +118,7 @@
                 <br><br><br>
                 <div class="card">
                     <div class="card-body">
-                        <a href="milkshCoffeeCrumble.html">
+                        <a href="milkshCoffeeCrumble.php">
                             <img src="img/ChocoKissesWToppings.png" class="centerimage">
                         </a>
                         <br><br>
@@ -132,7 +132,7 @@
                 <br><br><br>
                 <div class="card">
                     <div class="card-body">
-                        <a href="milkshMelon.html">
+                        <a href="milkshMelon.php">
                             <img src="img/MelonMS.png" class="centerimage">
                         </a>
                         <br><br>
@@ -146,7 +146,7 @@
                 <br><br><br>
                 <div class="card">
                     <div class="card-body">
-                        <a href="milkshAvocado.html">
+                        <a href="milkshAvocado.php">
                             <img src="img/AvocadoMS.png" class="centerimage">
                         </a>
                         <br><br>
@@ -160,7 +160,7 @@
                 <br><br><br>
                 <div class="card">
                     <div class="card-body">
-                        <a href="milkshBukoPandan.html">
+                        <a href="milkshBukoPandan.php">
                             <img src="img/BukoPandanWToppings.png" class="centerimage">
                         </a>
                         <br><br>
@@ -174,7 +174,7 @@
                 <br><br><br>
                 <div class="card">
                     <div class="card-body">
-                        <a href="milkshUbe.html">
+                        <a href="milkshUbe.php">
                             <img src="img/UbeMS.png" class="centerimage">
                         </a>
                         <br><br>
@@ -188,7 +188,7 @@
                 <br><br><br>
                 <div class="card">
                     <div class="card-body">
-                        <a href="milkshStrawberry.html">
+                        <a href="milkshStrawberry.php">
                             <img src="img/StrawberryMS.png" class="centerimage">
                         </a>
                         <br><br>
@@ -202,7 +202,7 @@
                 <br><br><br>
                 <div class="card">
                     <div class="card-body">
-                        <a href="milkshBuko.html">
+                        <a href="milkshBuko.php">
                             <img src="img/BukoMS.png" class="centerimage">
                         </a>
                         <br><br>

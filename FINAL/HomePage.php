@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<php lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -38,8 +38,8 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true">MENU</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                                <a class="dropdown-item" href="milkshake.html">Milkshake</a>
-                                <a class="dropdown-item" href="milktea.html">Milktea</a>
+                                <a class="dropdown-item" href="milkshake.php">Milkshake</a>
+                                <a class="dropdown-item" href="milktea.php">Milktea</a>
                             </div>
                         </li>
 
@@ -106,7 +106,7 @@
 
             <div class="card-deck" style=" margin-bottom: 200px">
                 <div class="card">
-                    <a href="milktWintermelon.html">
+                    <a href="milktWintermelon.php">
                         <img class="card-img-top" class="img-responsive" src="img/FavClassicWintermelonMT.png" alt="Card image cap">
                     </a>
                     <div class="card-body">
@@ -119,7 +119,7 @@
                 </div>
 
                 <div class="card">
-                    <a href="milkshCNC.html">
+                    <a href="milkshCNC.php">
                         <img class="card-img-top" class="img-responsive" src="img/FavCookiesNCreamMS.png" alt="Card image cap">
                     </a>
                     <div class="card-body">
@@ -133,7 +133,7 @@
                 </div>
 
                 <div class="card">
-                    <a href="milktCaramel.html">
+                    <a href="milktCaramel.php">
                         <img class="card-img-top" class="img-responsive" src="img/FavPremiumCaramelSugarMT.png" alt="Card image cap">
                     </a>
                     <div class="card-body">
@@ -167,7 +167,7 @@
                         <div class="col-md-12">
                             <img src="img/Milkshakes.png" alt=" " class="image">
                             <div class="middle">
-                                <div class="text"><a href="milkshake.html" style="color: #F0FFF0; text-decoration: none;"><b>MILKSHAKE</b></a></div>
+                                <div class="text"><a href="milkshake.php" style="color: #F0FFF0; text-decoration: none;"><b>MILKSHAKE</b></a></div>
                             </div>
                         </div>
                     </div>
@@ -178,7 +178,7 @@
                         <div class="col-md-12">
                             <img src="img/Milktea.png" alt=" " class="image">
                             <div class="middle">
-                                <div class="text"><a href="milktea.html" style="color: #F0FFF0; text-decoration: none;"><b>MILKTEA</b></a></div>
+                                <div class="text"><a href="milktea.php" style="color: #F0FFF0; text-decoration: none;"><b>MILKTEA</b></a></div>
                             </div>
                         </div>
                     </div>

@@ -17,7 +17,7 @@
   <section id="header">
     <nav class="navbar navbar-expand-xl fixed-top navbar-light bg-custom">
       <div class="container">
-        <a class="navbar-brand" href="HomePage.html"><img id="navbarBrand" src="img/coloredlogo.png" style="margin-left: 30px;" width="90" height="60"><span>Lhoyzki</span></a>
+        <a class="navbar-brand" href="HomePage.php"><img id="navbarBrand" src="img/coloredlogo.png" style="margin-left: 30px;" width="90" height="60"><span>Lhoyzki</span></a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,18 +25,18 @@
 
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="HomePage.html">HOME</a>
+              <a class="nav-link" href="HomePage.php">HOME</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="HomePage.html #new">FAVORITES</a>
+              <a class="nav-link" href="HomePage.php #new">FAVORITES</a>
             </li>
 
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true">MENU</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                <a class="dropdown-item" href="milkshake.html">Milkshake</a>
-                <a class="dropdown-item" href="milktea.html">Milktea</a>
+                <a class="dropdown-item" href="milkshake.php">Milkshake</a>
+                <a class="dropdown-item" href="milktea.php">Milktea</a>
               </div>
             </li>
 
