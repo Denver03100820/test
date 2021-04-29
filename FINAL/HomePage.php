@@ -249,9 +249,25 @@
                                 <h4 class="opinions"><span style="color: #f0ead6; font-family:'Comfortaa';">Your opinions matter to us</span></h4>
                                 <label for="feedbacks"><span style="color: #f0ead6; font-family: 'Comfortaa';"> Write your Feedbacks below:</span></label><br>
 
-                                <form>
+                                <form action="HomePage.php" method="POST">
+
+                                <?php
+                                    $server = "localhost";
+                                    $username = "root";
+                                    $password = "";
+                                    $DB = "lhoyzki_ordering";
+
+                                    $connection = new mysqli($server,$username,$password,$DB); //connection
+
+                                ?>
+
                                     <textarea rows="7" cols="40"></textarea><br><br>
                                     <input class="submit" type="reset" value="SUBMIT">
+                                    
+
+                             
+
+
                                 </form>
                             </li>
                         </ul>
