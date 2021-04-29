@@ -261,7 +261,10 @@
 
                                     if(isset($_POST['SUBMIT']))
                                     {
-                                        afshdnxfdnths;sdg
+                                        $customer_feedback = $_POST["customer_Feedback"];
+                                        
+                                        $sqlvar = ="INSERT INTO feedback_tbl(customer_Feedback) VALUES
+                                        ('{$customer_feedback}')";
                                     }
 
                                 ?>
