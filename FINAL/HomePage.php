@@ -259,6 +259,11 @@
 
                                     $connection = new mysqli($server,$username,$password,$DB); //connection
 
+                                    if(isset($_POST['SUBMIT']))
+                                    {
+                                        
+                                    }
+
                                 ?>
 
                                     <textarea rows="7" cols="40"></textarea><br><br>
