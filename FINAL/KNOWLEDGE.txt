@@ -1,0 +1,5 @@
+NOTES
+
+Types of joining
+
+Select * from product_tbl as A Left join price_tbl as B on B.Product_ID = A.Product_ID
