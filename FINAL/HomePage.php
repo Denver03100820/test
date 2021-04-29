@@ -257,7 +257,7 @@
 
                             $connection = new mysqli($server,$username,$password,$DB); //connection
                             
-                            if(isset($_POST['Submit']))
+                            if(isset($_POST['submit']))
                             {
                                 $customerID = uniqid();
                                 $customer_Feedback = $_POST["customer_Feedback"];
@@ -273,8 +273,8 @@
 
                                  <form action="HomePage.php" onsubmit="myFunction()" method="POST">
                                  
-                                    <input textarea rows="7" cols="40" name="customer_Feedback"></textarea><br><br>
-                                    <input type="Submit" name="Submit">
+                                    <textarea rows="7" cols="40" name="customer_Feedback"></textarea><br><br>
+                                    <input type="submit" name="submit">
    
                                 
                                 </form>
