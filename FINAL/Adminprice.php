@@ -39,7 +39,8 @@ if (isset($_POST['Submit']))
 		<input type="Text"	name="Product_Price">
 
         <select name="Product_ID">
-        <?php while($row = $product->fetch_assoc()):?>
+        <?php while($row = $product->fetch_assoc()): //get all values from a table?> 
+
           <?php //var_dump($row) ?>
           <option value="<?php echo $row['Product_ID']?>">  <?php echo $row['Product_Name']?>  </option>      
         <?php endwhile; ?>
