@@ -30,7 +30,7 @@ if (isset($_POST['Submit']))
 	<title></title>
 </head>
 <body>
-	<form action="ADMINISTRATOR.php" method="POST">
+	<form action="Adminproduct.php" method="POST">
         <label for="Product_Stocks">Product Stocks: </label>
 		<input type="Text"	name="Product_Stocks">
 
