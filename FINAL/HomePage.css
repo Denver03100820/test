@@ -11,7 +11,7 @@ html {
 }
 
 .bodycolor {
-    background-color: #2a6e2a;
+    background-color: #ffffff;
 }
 
 a {
@@ -58,18 +58,18 @@ h1 {
     font-weight: 700;
     line-height: 1.2;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .bg-custom {
-    background-color: rgba(91, 143, 61, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     border-color: transparent;
 }
 
 .navbar-brand span {
     font-size: 8mm;
     font-family: 'Rouge Script';
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .dropdown:hover>.dropdown-menu {
@@ -78,7 +78,7 @@ h1 {
 
 .dropdown-menu {
     margin-top: 0;
-    background-color: rgba(91, 143, 61, 0.8);
+    background-color: rgba(252, 185, 222, 0.8);
 }
 
 #navbarMenu a {
@@ -86,11 +86,11 @@ h1 {
     padding-right: 30px;
     font-size: 14px;
     font-family: 'Comfortaa', cursive;
-    color: honeydew;
+    color: rgb(78, 68, 34);
 }
 
 #navbarMenu a:hover {
-    color: #725527;
+    color: #000000;
 }
 
 
@@ -143,7 +143,7 @@ h1 {
 
 #menu,
 #menuheader {
-    background-color: rgba(232, 242, 217, 1);
+    background-color: rgb(255, 255, 255);
 }
 
 .center {

@@ -5,11 +5,11 @@ include 'header.php';
 <body class="bodycolor">
 
     <!--Hero Section-->
-    <section id="hero">
+    <!--<section id="hero">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
             <!--Indicators-->
-            <ol class="carousel-indicators">
+            <!--<ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
@@ -17,7 +17,7 @@ include 'header.php';
             </ol>
 
             <!--Wrapper for Slides-->
-            <div class="carousel-inner" role="listbox">
+           <!-- <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active" data-interval="7000">
                     <img class="d-md-block img-fluid" src="img/banner4.png">
                 </div>
@@ -33,7 +33,7 @@ include 'header.php';
             </div>
 
             <!--Left and right-->
-            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+           <!-- <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
@@ -43,6 +43,7 @@ include 'header.php';
             </a>
 
         </div>
+    </section>
     </section>
     <!--End Hero Section-->
 

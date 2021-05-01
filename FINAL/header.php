@@ -16,7 +16,7 @@
 
 <!--Header-->
 <section id="header">
-        <nav class="navbar navbar-expand-xl fixed-top navbar-light bg-custom">
+        <nav class="navbar navbar-expand-xl fixed-top navbar-light">
             <div class="container">
                 <a class="navbar-brand" href="#header"><img id="navbarBrand" src="img/coloredlogo.png" style="margin-left: 30px;" width="90" height="60"><span>Lhoyzki</span></a>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
@@ -44,6 +44,10 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#about">ABOUT</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Cart.php">CART</a>
+                        </li>
+                        
                     </ul>
                 </div>
             </div>
