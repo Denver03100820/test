@@ -5,7 +5,7 @@ include 'header.php';
 <body class="bodycolor">
 
  
-                <div class="container" style="margin-top: 75px" >
+                <div class="container" style="margin-top: 75px" padding";>
                     <img class="d-md-block img-fluid" src="img/Mainpic.png">
                 </div>
 

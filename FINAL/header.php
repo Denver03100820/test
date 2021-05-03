@@ -16,7 +16,7 @@
 
 <!--Header-->
 <section id="header">
-        <nav class="navbar navbar-expand-xl fixed-top navbar-light" style="background-color:gold">
+        <nav class="navbar navbar-expand-xl fixed-top navbar-light" style="background-color:antiquewhite">
             <div class="container">
                 <a class="navbar-brand" href="#header"><img id="navbarBrand" src="img/coloredlogo.png" style="margin-left: 30px;" width="90" height="60"><span>Lhoyzki</span></a>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
