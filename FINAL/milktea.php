@@ -5,10 +5,10 @@ include 'header.php';
 <body class="bodycolor">
 
   <!--Menu Section-->
-  <div class="jumbotron" style="margin-left: 15%;" id="favheader">
+ <!-- <div class="jumbotron" style="margin-left: 15%;" id="favheader">-->
     <h1 class="milkshake" style="font-family: 'Comfortaa' ;color: #725527; margin-top: 100px;">MILKTEA</h1><br>
     <hr style="width: 80%; border-top: 1px solid;">
-  </div>
+  <!--</div>-->
 
     <div class="container">
       
