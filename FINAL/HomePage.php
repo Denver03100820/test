@@ -21,9 +21,9 @@ include 'header.php';
                 <div class="carousel-item active" data-interval="7000">
                     <img class="d-md-block img-fluid" src="img/banner4.png">
                 </div>
-                <div class="carousel-item" data-interval="5000">
-                    <img class="d-md-block img-fluid" src="img/banner3.png">
-                </div>
+                <div class="carousel-item" data-interval="5000">-->
+                    <img class="d-md-block img-fluid" src="img/Mainpic.png">
+                <!--</div>
                 <div class="carousel-item" data-interval="5000">
                     <img class="d-md-block img-fluid" src="img/banner1.gif">
                 </div>
