@@ -79,15 +79,15 @@ a{
 }
 
 b {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 p {
-    font-size: 14px;
+    font-size: 13px;
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -114,7 +114,7 @@ h6 {
 
 input[class="review"] {
     font-family: 'Comfortaa';
-    font-size: 12px;
+    font-size: large;
     color: white;
     background: #987654;
     border: darkslategray 1px solid;

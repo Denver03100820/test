@@ -5,16 +5,17 @@ include 'header.php';
 <body class="bodycolor">
 
   <!--Menu Section-->
-  <div class="jumbotron" style="margin-left: 15%;" id="favheader">
-    <h1 class="milkshake" style="font-family: 'Comfortaa' ;color: #725527; margin-top: 100px;">MILKTEA</h1><br>
-    <hr style="width: 80%; border-top: 1px solid;">
-  </div>
-
+  
+    <h1 class="milkshake" style="font-family: 'Fantasy' ;color: #725527; margin-left: 50px; margin-top: 100px ">  MILKTEA  </h1><br>
+    <hr style="width: 100%; border-top: 1px solid;">
+      
+   <br><br>
     <div class="container">
       
+    
       <div class="row">
-
-        <div class="col-md-4">
+       
+        <div class="col-md-3">
           <div class="card">
             <div class="card-body">
               <a href="milktTaro.php">
@@ -22,12 +23,12 @@ include 'header.php';
               </a>
               <br><br>
               <div class="textcolor"><center><h4><b>Classic Taro Milktea</b></h4></center><br>
-              <center><h5>₱50.00</h5></center></div>
+              <center><h5>₱100.00</h5></center></div>
             </div>
           </div>
         </div>
       
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div class="card">
             <div class="card-body">
               <a href="milktOkinawa.php">
@@ -35,12 +36,12 @@ include 'header.php';
               </a>
               <br><br>
               <div class="textcolor"><center><h4><b>Classic Okinawa Milktea</b></h4></center><br>
-              <center><h5>₱50.00</h5></center></div>
+              <center><h5>₱100.00</h5></center></div>
             </div>
           </div>
         </div>
       
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div class="card">
             <div class="card-body">
               <a href="milktHokkaido.php">
@@ -48,13 +49,12 @@ include 'header.php';
               </a>
               <br><br>
               <div class="textcolor"><center><h4><b>Hokkaido Milktea</b></h4></center><br>
-              <center><h5>₱50.00</h5></center></div>
+              <center><h5>₱100.00</h5></center></div>
             </div>
           </div>
         </div>
       
-        <div class="col-md-4">
-          <br><br><br>
+        <div class="col-md-3">
           <div class="card">
             <div class="card-body">
               <a href="milktChoco.php">
@@ -62,12 +62,12 @@ include 'header.php';
               </a>
               <br><br>
               <div class="textcolor"><center><h4><b>Chocolate Milktea</b></h4></center><br>
-              <center><h5>₱50.00</h5></center></div>
+              <center><h5>₱100.00</h5></center></div>
             </div>
           </div>
         </div>
       
-        <div class="col-md-4">
+        <div class="col-md-3">
           <br><br><br>
           <div class="card">
             <div class="card-body">
@@ -76,12 +76,12 @@ include 'header.php';
               </a>
               <br><br>
               <div class="textcolor"><center><h4><b>Red Velvet Milktea</b></h4></center><br>
-              <center><h5>₱50.00</h5></center></div>
+              <center><h5>₱100.00</h5></center></div>
             </div>
           </div>
         </div>
       
-        <div class="col-md-4">
+        <div class="col-md-3">
           <br><br><br>
           <div class="card">
             <div class="card-body">
@@ -90,26 +90,26 @@ include 'header.php';
               </a>
               <br><br>
               <div class="textcolor"><center><h4><b>Classic Wintermelon Milktea</b></h4></center><br>
-              <center><h5>₱50.00</h5></center></div>
+              <center><h5>₱100.00</h5></center></div>
             </div>
           </div>
         </div>
   
-        <div class="col-md-4">
+        <div class="col-md-3">
           <br><br><br>
           <div class="card">
             <div class="card-body">
               <a href="milktCaramel.php">
                 <img src="img/PremiumCaramelSugarMT.png" class="centerimage">
               </a>
-              <br><br>
+              <br>
               <div class="textcolor"><center><h4><b>Premium Caramel Sugar Milktea</b></h4></center><br>
-              <center><h5>₱50.00</h5></center></div>
+              <center><h5>₱100.00</h5></center></div>
             </div>
           </div>
         </div>
       
-        <div class="col-md-4">
+        <div class="col-md-3">
           <br><br><br>
           <div class="card">
             <div class="card-body">
@@ -118,7 +118,7 @@ include 'header.php';
               </a>
               <br><br>
               <div class="textcolor"><center><h4><b>Cookies N Cream Milktea</b></h4></center><br>
-              <center><h5>₱50.00</h5></center></div>
+              <center><h5>₱100.00</h5></center></div>
             </div>
           </div>
         </div>

@@ -2,10 +2,11 @@
 include 'header.php';
 ?>
 
-<body class="bodycolor">
 
-    <!--Milkshake Seperate Per Product Page-->
-    <div class="container" style="margin-top:30px">
+<body class="bodycolor">
+    <br><br><br><br><br><br><br>
+   <!--Milkshake Seperate Per Product Page-->
+   <div class="container" style="margin-top:30px">
         
         <div class="row">
     
@@ -17,51 +18,60 @@ include 'header.php';
                 <div class="card" style="margin-top: 100px;">
                     <div class="card-body">
                         <div class="textcolor">
-                            <h4>Choco Fudge Milkshake</h4><hr style="border-top: 1px solid;">
-                            <p>Be crazy and in love with our sweetest shake that is loaded with brownies and chocolate fudge that will make you stun for minutes.</p><br>
+                            <h2>Choco Fudge Milkshake</h4><hr style="border-top: 1px solid; ">
+                            <p style="font-size:15px;">Be crazy and in love with our sweetest shake that is loaded with brownies and chocolate fudge that will make you stun for minutes.</p><br>
                             
-                            <h3>Ingredients: </h3><br>
-                            <h5>Whole Milk, Dark Chocolate Hot Fudge Sauce, Vanilla Extract, Blended Cream, 
-                                Vanilla Ice Cream, Chocolate Shavings</h5><br><br>
+                            <b style="font-size:13px;">Available Size/s:</b><br><br>
+                            
+							<input type="radio" id="small" name="sizes" value="small">
+							<label for="small" style="font-size:11px;">REGULAR   </label>
+							<input type="radio" id="medium" name="sizes" value="medium">
+							<label for="medium" style="font-size:11px;">LARGE   </label>
+							<input type="radio" id="large" name="sizes" value="large">
+							<label for="large" style="font-size:11px;">EXTRA LARGE   </label><br>
+                               <br><br>
 
-                            <h3>Benefits: </h3><br>
-                            <h5>The benefits of drinking milkshake is essentially good for the bones and teeth health because it supplies calcium our body needs.</h5><br><br>
+                            <b style="font-size:13px;">Add ons:</b><br><br>
+							
+								<input type="checkbox" id="blackpearl" name="blackpearl" value="blackpearl">
+                                <label for="blackpearl" style="font-size:12px;">Black Pearl +₱15.00</label><br>
+								<input type="checkbox" id="oreo" name="oreo" value="oreo">
+                                <label for="oreo" style="font-size:12px;">Oreo +₱15.00</label><br>
+								<input type="checkbox" id="mallows" name="mallows" value="mallows">
+                                <label for="mallows" style="font-size:12px;">Mallows +₱15.00</label><br>
+								<input type="checkbox" id="chocochips" name="chocochips" value="chocochips">
+                                <label for="chocochips" style="font-size:12px;">Choco Chips +₱15.00</label><br>
+								<input type="checkbox" id="nata" name="nata" value="nata">
+                                <label for="nata" style="font-size:12px;">Nata +₱15.00</label><br>
+								<input type="checkbox" id="cream" name="cream" value="cream">
+                                <label for="cream" style="font-size:12px;">Cream Cheese +₱15.00</label><br>
+								<input type="checkbox" id="pudding" name="pudding" value="pudding">
+                                <label for="pudding" style="font-size:12px;">Pudding +₱15.00</label><br>
+								<input type="checkbox" id="red" name="red" value="red">
+                                <label for="red" style="font-size:12px;">Red Beans +₱15.00</label><br>
+							
+							<button class="review" style="width: 15px;" onclick="decrement()"><b>-</b></button>
+							<input style="text-align:center"; id=Input type=number min=1 max=100 value=1>
+							<button class="review" style="width: 15px;" onclick="increment()"><b>+</b></button>
 
-                            <b>Available Size/s:</b><br><br>
-                            <select class="select-size" id="size">
-                                <option value="small"><h6>Small ₱25.00</h6></option><br>
-                                <option value="large"><h6>Large ₱35.00</h6></option><br>
-                                <option value="xl"><h6>Extra Large ₱45.00</h6></option><br>
-                            </select><br><br>
-
-                            <b>With Toppings</b><br><br>
-                            <select class="select-toppings" id="toppings">
-                                <option value="smallt"><h6>Small ₱30.00</h6></option><br>
-                                <option value="larget"><h6>Large ₱40.00</h6></option><br>
-                                <option value="xlt"><h6>Extra Large ₱50.00</h6></option><br>
-                            </select><br><br>
-
-                            <b>Add ons:</b><br><br>
-                            <select class="select-addons" id="addons">
-                                <option value="blackpearl"><h6>Black Pearl +₱10.00</h6></option><br>
-                                <option value="oreo"><h6>Oreo +₱5.00</h6></option><br>
-                                <option value="mallows"><h6>Mallows +₱5.00</h6></option><br>
-                                <option value="chocochips"><h6>Choco Chips +₱5.00</h6></option>
-                            </select><br>
+						<script>
+							function increment() {
+							document.getElementById('Input').stepUp();
+						}
+							function decrement() {
+							document.getElementById('Input').stepDown();
+						}
+						</script>
+							
+                            <button class="review"  type="submit">ADD TO CART</button>
+							
                         </div>
+                        
                     </div>
                 </div>
                 <br><br>
               
-                <div class="textcolor">
-                    <form>
-                        <label for="review"><b>Write A Review:</b></label>
-                        <hr style="border-top: 1px solid;">
-                        <form>
-                            <textarea rows="12" cols="108" name="review" id="review"></textarea>
-                            <br><br>
-                            <input class="review" type="reset" value="SUBMIT">
-                        </form>
+
                     </form>
                 </div>
                 <br>
@@ -70,7 +80,7 @@ include 'header.php';
         </div>
     </div>
     <br><br>
-    <!--End Milkshake Seperate Per Product Page-->    
+    <!--End Milkshake Seperate Per Product Page--> 
 
 </body>
 

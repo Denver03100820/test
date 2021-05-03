@@ -28,7 +28,7 @@ a{
 
 /* Header Section */
 .bg-custom{
-    background-color: rgba(91, 143, 61, 0.8);
+    background-color: rgba(91, 143, 61, 0.8) ;
     border-color: transparent;
 }
 
@@ -61,10 +61,11 @@ a{
 /* End Header Section */
 
 /* Menu Section */
-.jumbotron {
+.jumbotron{
     background-color: rgba(232, 242, 217, 1);
+    
 }
-
+ 
 .center {
     margin: 0;
     position: absolute;

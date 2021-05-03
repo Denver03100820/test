@@ -5,16 +5,17 @@ include 'header.php';
 <body class="bodycolor">
 
     <!--Menu Section-->
-    <div class="jumbotron" style="margin-left: 15%;" id="favheader">
-        <h1 class="milkshake" style="font-family: 'Comfortaa' ;color: #725527; margin-top: 100px;">MILKSHAKE</h1><br>
-        <hr style="width: 80%; border-top: 1px solid;">
+    
+        <h1 class="milkshake" style="font-family: 'Fantasy' ;color: #725527; margin-top: 100px; margin-left: 50px; ;">MILKSHAKE</h1><br>
+        <hr style="width: 100%; border-top: 1px solid;">
     </div>
     
+    <br><br>
     <div class="container">
         
         <div class="row">
     
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="card">
                     <div class="card-body">
                         <a href="milkshChocoFudge.php">
@@ -27,7 +28,7 @@ include 'header.php';
                 </div>
             </div>
     
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="card">
                     <div class="card-body">
                         <a href="milkshChocoKisses.php">
@@ -40,7 +41,7 @@ include 'header.php';
                 </div>
             </div>
     
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="card">
                     <div class="card-body">
                         <a href="milkshBlackForest.php">
@@ -53,8 +54,8 @@ include 'header.php';
                 </div>
             </div>
     
-            <div class="col-md-4">
-                <br><br><br>
+            <div class="col-md-3">
+                
                 <div class="card">
                     <div class="card-body">
                         <a href="milkshCNC.php">
@@ -67,7 +68,7 @@ include 'header.php';
                 </div>
             </div>
     
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <br><br><br>
                 <div class="card">
                     <div class="card-body">
@@ -81,7 +82,7 @@ include 'header.php';
                 </div>
             </div>
     
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <br><br><br>
                 <div class="card">
                     <div class="card-body">
@@ -95,7 +96,7 @@ include 'header.php';
                 </div>
             </div>
     
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <br><br><br>
                 <div class="card">
                     <div class="card-body">
@@ -109,7 +110,7 @@ include 'header.php';
                 </div>
             </div>
     
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <br><br><br>
                 <div class="card">
                     <div class="card-body">
@@ -123,7 +124,7 @@ include 'header.php';
                 </div>
             </div>
     
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <br><br><br>
                 <div class="card">
                     <div class="card-body">
@@ -137,7 +138,7 @@ include 'header.php';
                 </div>
             </div>
     
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <br><br><br>
                 <div class="card">
                     <div class="card-body">
@@ -151,7 +152,7 @@ include 'header.php';
                 </div>
             </div>
     
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <br><br><br>
                 <div class="card">
                     <div class="card-body">
