@@ -29,7 +29,7 @@ a {
 /* Header Section */
 
 .navbar-light {
-    background: rgba(226, 207, 182) !important;
+    background: #fadadd !important;
 }
 
 .fixed-bg {
@@ -72,7 +72,7 @@ a {
 
 .dropdown-menu {
     margin-top: 0;
-    background-color: rgba(226, 207, 182);
+    background-color: #fadadd;
 }
 
 #navbarMenu a {
@@ -116,6 +116,10 @@ a {
     -webkit-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
     box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+}
+
+.jumbotron {
+    background-color: white;
 }
 
 
