@@ -14,16 +14,16 @@ include 'header.php';
     <!--Favorites Section-->
     <section id="new">
         <div class="jumbotron text-center" style="margin-bottom: 0" id="favheader">
-            <h1 class="menu-title" style="color: #725527; margin-top: 40px;">FAVORITES</h1><br>
+            <h1 class="menu-title" style="color: rgb(78, 68, 34); margin-top: 40px;">FAVORITES</h1><br>
             <hr style="width:50%; margin-left:25%; margin-right:25%">
         </div>
 
         <div class="container">
 
-            <div class="card-deck" style=" margin-bottom: 200px">
-                <div class="card">
+            <div class="card-deck" style="margin-bottom: 200px">
+                <div class="card" style="border-radius: 20px">
                     <a href="milktWintermelon.php">
-                        <img class="card-img-top" class="img-responsive" src="img/FavClassicWintermelonMT.png" alt="Card image cap">
+                        <img class="card-img-top" style="border-radius: 20px" class="img-responsive" src="img/FavClassicWintermelonMT.png" alt="Card image cap">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Classic Wintermelon Milktea</h5>
@@ -34,9 +34,9 @@ include 'header.php';
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card" style="border-radius: 20px">
                     <a href="milkshCNC.php">
-                        <img class="card-img-top" class="img-responsive" src="img/FavCookiesNCreamMS.png" alt="Card image cap">
+                        <img class="card-img-top" style="border-radius: 20px" class="img-responsive" src="img/FavCookiesNCreamMS.png" alt="Card image cap">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Cookies and Cream Milkshake</h5>
@@ -48,9 +48,9 @@ include 'header.php';
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card" style="border-radius: 20px">
                     <a href="milktCaramel.php">
-                        <img class="card-img-top" class="img-responsive" src="img/FavPremiumCaramelSugarMT.png" alt="Card image cap">
+                        <img class="card-img-top" style="border-radius: 20px"class="img-responsive" src="img/FavPremiumCaramelSugarMT.png" alt="Card image cap">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Premium Caramel Sugar Milktea</h5>
@@ -70,7 +70,7 @@ include 'header.php';
     <section id="menu">
         <div class="fixed-bg" id="menuheader">
             <div class="section-intro">
-                <span class="title2 p-l-15 p-r-15" style="color: #322d11;">MENU</span>
+                <span class="title2 p-l-15 p-r-15" style="color: darkbrown;">MENU</span>
             </div>
         </div>
 

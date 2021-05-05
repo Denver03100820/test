@@ -9,10 +9,10 @@ include 'header.php';
 <body class="bodycolor">
 
     <!--Menu Section-->
-    
-        <h1 class="milkshake" style="font-family: 'Fantasy' ;color: #725527; margin-top: 100px; margin-left: 50px; ;">MILKSHAKE</h1><br>
-        <hr style="width: 100%; border-top: 1px solid;">
-    </div>
+
+        <br>
+        <h1 class="milkshake" style="font-family: 'Fantasy'; color: #725527; margin-top: 100px; margin-left: 230px;">MILKSHAKE</h1><br>
+        <hr style="width: 71%; border-top: 1px solid; margin-left: 220px;">
     
     <br><br>
     <div class="container">

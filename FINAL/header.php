@@ -15,7 +15,7 @@
 
 <!--Header-->
 <section id="header">
-        <nav class="navbar navbar-expand-xl fixed-top navbar-light" style="background-color: #efdecd">
+        <nav class="navbar navbar-expand-xl fixed-top navbar-light">
             <div class="container">
                 <a class="navbar-brand" href="#header"><img id="navbarBrand" src="img/coloredlogo.png" style="margin-left: 30px;" width="90" height="60"><span>Lhoyzki</span></a>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
@@ -44,7 +44,9 @@
                             <a class="nav-link" href="#about">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Cart.php">CART</a>
+                            <a class="nav-link" href="Cart.php">
+                            <img src="https://img.icons8.com/material-rounded/22/000000/shopping-cart.png"/>
+                            </a>
                         </li>
                         
                     </ul>
@@ -53,5 +55,13 @@
         </nav>
     </section>
     <!--End Header-->
+
+    <script>
+        $(window).scroll(function() {
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+        });
+    </script>
+
+</html>
 
 

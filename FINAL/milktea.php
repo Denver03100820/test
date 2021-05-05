@@ -3,22 +3,19 @@ include 'header.php';
 ?>
 
 <head>
-    <link rel="stylesheet" href="menuSection.css" type="text/css">
+  <link rel="stylesheet" href="menuSection.css" type="text/css">
 </head>
 
 <body class="bodycolor">
 
   <!--Menu Section-->
 
-  
-    <h1 class="milkshake" style="font-family: 'Fantasy' ;color: #725527; margin-left: 50px; margin-top: 100px ">  MILKTEA  </h1><br>
-    <hr style="width: 100%; border-top: 1px solid;">
+    <br>
+    <h1 class="milkshake" style="font-family: 'Fantasy'; color: #725527; margin-top: 100px; margin-left: 230px;">MILKTEA</h1><br>
+    <hr style="width: 71%; border-top: 1px solid; margin-left: 220px;">
       
-   <br><br>
-
-
+    <br><br>
     <div class="container">
-      
     
       <div class="row">
        

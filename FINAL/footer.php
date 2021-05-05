@@ -59,7 +59,7 @@
                                 <h4 class="opinions"><span style="color: #321414; font-family:'Comfortaa';">Your opinions matter to us</span></h4>
                                 <label for="feedbacks"><span style="color: #321414; font-family: 'Comfortaa';"> Write your Feedbacks below:</span></label><br>
 
-                     <?php
+                    <?php
                         $server = "localhost";
                             $username = "root";
                             $password = "";
@@ -79,25 +79,21 @@
                                 //var_dump($sqlvar);
                                 $connection->query($sqlvar);
                             }
-                        ?>
+                    ?>
 
-                                 <form action="HomePage.php" onsubmit="myFunction()" method="POST">
+                                <form action="HomePage.php" onsubmit="myFunction()" method="POST">
                                  
                                     <textarea rows="7" cols="40" name="customer_Feedback"></textarea><br>
                                     <button  style=" width:50px; background-color: antiquewhite" type="submit">SUBMIT</button>
-   
-                                
+     
                                 </form>
-                                
                             </li>
                         </ul>
                     </div>
-
                 </div>
             </div>
 
             <div class="footer-copyright text-center py-5" style="background-color: #8a5f56;  color: #321414">© 2020 • Lhoyzki Milkshake & Milktea | All rights reserved </div>
-
         </footer>
     </section>
     <!--End Footer-->
@@ -119,7 +115,7 @@
             );
         });
         function myFunction() {
-         alert("Thank you!!!");
+            alert("Thank you!!!");
     }
     </script>
 
