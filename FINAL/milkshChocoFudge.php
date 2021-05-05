@@ -2,6 +2,9 @@
 include 'header.php';
 ?>
 
+<head>
+  <link rel="stylesheet" href="orderSection.css" type="text/css">
+</head>
 
 <body class="bodycolor">
     <br><br><br><br><br><br><br>
@@ -32,7 +35,7 @@ include 'header.php';
                                <br><br>
 
                             <b style="font-size:13px;">Add ons:</b><br><br>
-                                <span class="checkbox">
+    
 								<input type="checkbox" id="blackpearl" name="blackpearl" value="blackpearl">
                                 <label for="blackpearl" style="font-size:12px;">Black Pearl +₱15.00</label><br>
 								<input type="checkbox" id="oreo" name="oreo" value="oreo">
@@ -49,7 +52,6 @@ include 'header.php';
                                 <label for="pudding" style="font-size:12px;">Pudding +₱15.00</label><br>
 								<input type="checkbox" id="red" name="red" value="red">
                                 <label for="red" style="font-size:12px;">Red Beans +₱15.00</label><br>
-</span>
 
 							<button class="review" style="width: 15px;" onclick="decrement()"><b>-</b></button>
 							<input style="text-align:center"; id=Input type=number min=1 max=100 value=1>

@@ -6,17 +6,16 @@
     <title>Lhoyzki Milkshake & Milktea</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="HomePage.css" type="text/css">
+    <link rel="stylesheet" href="header.css" type="text/css">
     <link rel="icon" href="img/colored logo.jpg">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
-
 </head>
 
 <!--Header-->
 <section id="header">
-        <nav class="navbar navbar-expand-xl fixed-top navbar-light" style="background-color:antiquewhite">
+        <nav class="navbar navbar-expand-xl fixed-top navbar-light" style="background-color: #efdecd">
             <div class="container">
                 <a class="navbar-brand" href="#header"><img id="navbarBrand" src="img/coloredlogo.png" style="margin-left: 30px;" width="90" height="60"><span>Lhoyzki</span></a>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
@@ -30,7 +29,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#new">FAVORITES</a>
+                            <a class="nav-link" href="HomePage.php#new">FAVORITES</a>
                         </li>
 
                         <li class="nav-item dropdown">

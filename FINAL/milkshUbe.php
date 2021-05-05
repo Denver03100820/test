@@ -2,6 +2,10 @@
 include 'header.php';
 ?>
 
+<head>
+  <link rel="stylesheet" href="orderSection.css" type="text/css">
+</head>
+
 <body class="bodycolor">
 
     <!--Milkshake Seperate Per Product Page-->

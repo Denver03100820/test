@@ -2,6 +2,10 @@
 include 'header.php';
 ?>
 
+<head>
+    <link rel="stylesheet" href="menuSection.css" type="text/css">
+</head>
+
 <body class="bodycolor">
 
     <!--Menu Section-->

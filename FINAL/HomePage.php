@@ -1,14 +1,15 @@
 <?php 
 include 'header.php';
 ?>
+<head>
+    <link rel="stylesheet" href="HomePage.css" type="text/css">
+</head>
 
 <body class="bodycolor">
-
  
-                <div class="container" style="margin-top: 75px" padding";>
-                    <img class="d-md-block img-fluid" src="img/Mainpic.png">
-                </div>
-
+    <div class="container" style="margin-top: 75px">
+        <img class="d-md-block img-fluid" src="img/Mainpic.png">
+    </div>
 
     <!--Favorites Section-->
     <section id="new">

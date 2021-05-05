@@ -1,7 +1,10 @@
 <?php 
 include 'header.php';
 ?>
-<head> <link rel="stylesheet" href="milkshChocoFudge.css" type="text/css"></head>
+
+<head>
+  <link rel="stylesheet" href="orderSection.css" type="text/css">
+</head>
 
 <body class="bodycolor">
 
