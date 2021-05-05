@@ -6,11 +6,11 @@
 }
 
 .navbar-light.scrolled {
-    background: rgba(226, 207, 182) !important;
+    background: #fadadd !important;
 }
 
 .fixed-bg {
-    background-image: url('img/headerTapioca.png');
+    background-image: url('img/trybg.jpg');
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
@@ -49,7 +49,7 @@
 
 .dropdown-menu {
     margin-top: 0;
-    background-color: rgba(226, 207, 182);
+    background-color: #fadadd;
 }
 
 #navbarMenu a {

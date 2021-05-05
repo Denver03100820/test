@@ -127,7 +127,7 @@ h1 {
 }
 
 .text {
-    background-color: #806740;
+    background-color: #8a5f56;
     color: rgb(155, 134, 134);
     font-family: 'Fantasy';
     font-size: 16px;
@@ -144,7 +144,6 @@ h1 {
     -moz-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
     box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
 }
-
 
 /* End Menu Section */
 
