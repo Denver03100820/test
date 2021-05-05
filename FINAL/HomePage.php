@@ -15,7 +15,7 @@ include 'header.php';
     <section id="new">
         <div class="jumbotron text-center" style="margin-bottom: 0" id="favheader">
             <h1 class="menu-title" style="color: rgb(78, 68, 34); margin-top: 40px;">FAVORITES</h1><br>
-            <hr style="width:50%; margin-left:25%; margin-right:25%">
+            <hr style="width:50%; margin-left:25%; margin-right:25%; border-top: 1px solid black;">
         </div>
 
         <div class="container">
