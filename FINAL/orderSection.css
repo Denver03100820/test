@@ -11,10 +11,6 @@ html{
     scroll-behavior: smooth;
 }
 
-.bodycolor{
-    background-color: #d0f0c0;
-}
-
 a{
     text-decoration: none;
     position: relative;
@@ -25,6 +21,70 @@ a{
     display: flex;
     justify-content: center;
 }
+
+/* Header Section */
+
+.navbar-light {
+    background: rgba(226, 207, 182) !important;
+}
+
+.fixed-bg {
+    background-image: url('img/headerTapioca.png');
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-intro {
+    padding-top: 130px;
+    display: block;
+    text-align: center;
+}
+
+.section-intro span.title2 {
+    padding: 18px;
+    letter-spacing: 10px;
+}
+
+.title2 {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    /*background-color: rgba(0, 0, 0, 0);*/
+}
+
+.navbar-brand span {
+    font-size: 8mm;
+    font-family: 'Rouge Script';
+    color: rgb(78, 68, 34);
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    margin-top: 0;
+    background-color: rgba(226, 207, 182);
+}
+
+#navbarMenu a {
+    margin-right: 30px;
+    font-size: 14px;
+    font-family: 'Comfortaa', cursive;
+    color: rgb(78, 68, 34);
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease;
+}
+
+#navbarMenu a:hover {
+    border-bottom: 2px solid rgb(78, 68, 34);
+}
+
+/* End Header Section */
 
 /* Milkshake Seperate Per Product Page */
 .center {

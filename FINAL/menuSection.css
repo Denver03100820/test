@@ -29,11 +29,6 @@ a {
 /* Header Section */
 
 .navbar-light {
-    background-color: transparent !important;
-    transition: 0.5s ease;
-}
-
-.navbar-light.scrolled {
     background: rgba(226, 207, 182) !important;
 }
 
@@ -98,15 +93,6 @@ a {
 
 /* Menu Section */
 
-.center {
-    margin: 0;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
 .centerimage {
     display: block;
     margin-left: auto;
@@ -115,7 +101,7 @@ a {
 }
 
 .textcolor {
-    color: #725527;
+    color: #4d463e;
 }
 
 .card {

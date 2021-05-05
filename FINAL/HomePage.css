@@ -127,14 +127,12 @@ h1 {
 }
 
 .text {
-    background-color: #725527;
-    color: white;
+    background-color: #806740;
+    color: rgb(155, 134, 134);
+    font-family: 'Fantasy';
     font-size: 16px;
     padding: 16px 32px;
-}
-
-.textcolor {
-    color: #725527;
+    border-radius: 5px;
 }
 
 .card {
