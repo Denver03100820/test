@@ -34,7 +34,7 @@ a {
 }
 
 .navbar-light.scrolled {
-    background: rgba(226, 207, 182, 0.95) !important;
+    background: rgba(226, 207, 182) !important;
 }
 
 .fixed-bg {
@@ -77,7 +77,7 @@ a {
 
 .dropdown-menu {
     margin-top: 0;
-    background-color: rgba(226, 207, 182, 0.95);
+    background-color: rgba(226, 207, 182);
 }
 
 #navbarMenu a {
