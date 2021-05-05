@@ -145,16 +145,11 @@ h3 {
     color: white;
 }
 
-footer {
-    width: 100% !important;
-    background-color: #4d5d53;
-}
-
 .footer-copyright {
-    background-color: #37413b;
+    background-color: #8a5f56;
     font-size: 12px;
     font-family: 'Comfortaa';
-    color: #f0ead6;
+    color: white;
 }
 
 .container-fluid {

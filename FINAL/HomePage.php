@@ -70,7 +70,7 @@ include 'header.php';
     <section id="menu">
         <div class="fixed-bg" id="menuheader">
             <div class="section-intro">
-                <span class="title2 p-l-15 p-r-15" style="color: #321414;">MENU</span>
+                <span class="title2 p-l-15 p-r-15">MENU</span>
             </div>
         </div>
 

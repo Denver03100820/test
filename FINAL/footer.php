@@ -57,7 +57,7 @@
 
                             <li>
                                 <h4 class="opinions"><span style="font-family:'Comfortaa';">Your opinions matter to us</span></h4>
-                                <label for="feedbacks"><span style="font-family: 'Comfortaa';"> Write your Feedbacks below:</span></label><br>
+                                <label for="feedbacks"><span style="font-family: 'Comfortaa'; font-size: 12px"> Write your Feedbacks below:</span></label><br>
 
                     <?php
                         $server = "localhost";
@@ -83,8 +83,8 @@
 
                                 <form action="HomePage.php" onsubmit="myFunction()" method="POST">
                                  
-                                    <textarea rows="7" cols="40" name="customer_Feedback"></textarea><br>
-                                    <button  style=" width:50px; background-color: antiquewhite" type="submit">SUBMIT</button>
+                                    <textarea rows="10" cols="55" name="customer_Feedback"></textarea><br>
+                                    <button class="submit-button" type="submit">SUBMIT</button>
      
                                 </form>
                             </li>
@@ -93,7 +93,7 @@
                 </div>
             </div>
 
-            <div class="footer-copyright text-center py-5" style="background-color: #8a5f56;">© 2020 • Lhoyzki Milkshake & Milktea | All rights reserved</div>
+            <div class="footer-copyright text-center py-5">© 2020 • Lhoyzki Milkshake & Milktea | All rights reserved</div>
         </footer>
     </section>
     <!--End Footer-->

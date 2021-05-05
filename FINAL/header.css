@@ -10,7 +10,7 @@
 }
 
 .fixed-bg {
-    background-image: url('img/trybg.jpg');
+    background-image: url('img/trybg1.png');
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
@@ -30,11 +30,12 @@
 }
 
 .title2 {
+    font-family: 'Fantasy';
     font-size: 80px;
     font-weight: 700;
     line-height: 1.2;
     text-align: center;
-    /*background-color: rgba(0, 0, 0, 0);*/
+    color: #744a14;
 }
 
 .navbar-brand span {
@@ -86,16 +87,11 @@ h3 {
     color: white;
 }
 
-footer {
-    width: 100% !important;
-    background-color: #4d5d53;
-}
-
 .footer-copyright {
-    background-color: #37413b;
+    background-color: #8a5f56;
     font-size: 12px;
     font-family: 'Comfortaa';
-    color: #f0ead6;
+    color: white;
 }
 
 .container-fluid {
@@ -103,18 +99,18 @@ footer {
 }
 
 textarea {
-    border: 3px solid #836953;
+    border: 3px solid #8a5f56;
     border-radius: 5px;
 }
 
-input[class="submit"] {
+.submit-button {
     font-family: 'Comfortaa';
-    font-size: 12px;
+    font-size: 10px;
     color: white;
-    background: #836953;
-    border: darkslategray 1px solid;
-    padding: 12px;
-    width: 30%;
+    background: #8a5f56;
+    border: 1px solid gray;
+    padding: 6px;
+    width: 20%;
     border-radius: 10px;
     cursor: pointer;
 }
