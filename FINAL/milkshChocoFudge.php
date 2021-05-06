@@ -25,18 +25,21 @@ include 'header.php';
                         <h2 style="margin-left: 3px; margin-top:5px">Choco Fudge Milkshake</h4><hr style="border-top: 1px solid; ">
                         <p style="font-size:15px; margin-left: 5px">Be crazy and in love with our sweetest shake that is loaded with brownies and chocolate fudge that will make you stun for minutes.</p><br>
                         
+                        <form action="milkshChocoFudge.php" method="POST">
+
                         <div style="margin-left: 3px" aria-required="true"> <b style="font-size:13px;">Available Size/s:</b><br><br>
                         
                         <input type="radio" style="margin-left: 10px " id="small" name="sizes" value="small">
-                        <label for="small" style="font-size:12px; padding:5px ">REGULAR <i style="margin-left: 367px"> +₱110.00</i></label><br>
-                        <input type="radio" style="margin-left: 10px " id="medium" name="sizes" value="medium">
-                        <label for="medium" style="font-size:12px; padding:5px">LARGE <i style="margin-left: 382px"> +₱125.00</i></label><br>
+                        <label for="small" style="font-size:12px; padding:5px ">REGULAR <i style="margin-left: 367px" > +₱110.00</i></label><br>
+                        <input type="radio" style="margin-left: 10px " id="medium" name="sizes" value="medium" >
+                        <label for="medium" style="font-size:12px; padding:5px">LARGE <i style="margin-left: 382px" > +₱125.00</i></label><br>
                         <input type="radio" style="margin-left: 10px " id="large" name="sizes" value="large">
-                        <label for="large"  style="font-size:12px; padding:5px">EXTRA LARGE <i style="margin-left: 344px"> +₱140.00</i></label><br>
+                        <label for="large"  style="font-size:12px; padding:5px">EXTRA LARGE <i style="margin-left: 344px" > +₱140.00</i></label><br>
                             <br><br></div>
 
-                        <div style="margin-left: 3px " aria-required="true"><b style="font-size:13px;">Sugar Level/s:</b><br><br>
-                        
+
+ 
+                        <div style="margin-left: 3px " ><b style="font-size:13px;">Sugar Level/s:</b><br><br>
 
                         <input type="radio" style="margin-left: 10px " id="1h" name="slevel" value="1h">
                         <label for="small" style="font-size:12px; padding:5px">  100 %   </label>
@@ -49,6 +52,8 @@ include 'header.php';
                         <input type="radio" id="zero" name="slevel" value="zero">
                         <label for="large" style="font-size:12px; padding:5px">   0 %  </label><br>
                             <br><br></div>
+
+
 
                         <b style="font-size:13px; margin-left: 3px ">Add ons:</b><br><br>
 
@@ -87,20 +92,23 @@ include 'header.php';
                             <a class="nav-link" href="Cart.php" ><img src="https://img.icons8.com/material-rounded/22/000000/shopping-cart.png"/>ADD TO CART</a></button><br><br>
 							
                         </div>
-                        
+                    </form>
                     </div>
                 </div>
                 <br><br>
-              
-
-                    </form>
+            
                 </div>
                 <br>
                   
             </div>
         </div>
     </div>
+<<<<<<< HEAD
+                  
+    <br><br>
+=======
     <br><br><br><br><br><br>
+>>>>>>> ba50b7341af6f3f7cf605dd2b538f0fdd1de5c10
     <!--End Milkshake Seperate Per Product Page--> 
 </body>
 
