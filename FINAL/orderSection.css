@@ -138,6 +138,29 @@ h6 {
     border-bottom: 1px #725527 solid;
     background-color: white;
 }
+.addcart {
+    font-family: 'Comfortaa';
+    font-size: 10px;
+    color: black;
+    background: #ffe4e1;
+    border: 1px solid gray;
+    width: 30%;
+    height:30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.quant {
+    font-family: 'Comfortaa';
+    font-size: 10px;
+    color: black;
+    background: #ffe4e1;
+    border: 1px solid gray;
+    width: 22px;
+    height:26px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
 
 input[class="review"] {
     font-family: 'Comfortaa';
@@ -147,7 +170,7 @@ input[class="review"] {
     border: darkslategray 1px solid;
     text-align: center;
     padding: 12px;
-    width: 17%;
+    width: 20%;
     border-radius: 10px;
     cursor: pointer; 
 }
