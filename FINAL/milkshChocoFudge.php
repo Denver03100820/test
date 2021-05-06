@@ -6,9 +6,11 @@ include 'header.php';
   <link rel="stylesheet" href="orderSection.css" type="text/css">
 </head>
 
-<body class="bodycolor">
+<body class="fixed-bg">
+
     <br><br><br><br><br><br><br>
    <!--Milkshake Seperate Per Product Page-->
+
    <div class="container" style="margin-top:30px">
         
         <div class="row">
@@ -17,7 +19,7 @@ include 'header.php';
                 <img src="img/ChocoFudge(bg).png" class="centerimage">   
             </div>
     
-            <div class="col-md-6">
+            <div class="col-md-6" >
                 <div class="semi-card">
                     <div class="textcolor">
                         <h2>Choco Fudge Milkshake</h4><hr style="border-top: 1px solid; ">
@@ -81,9 +83,9 @@ include 'header.php';
             </div>
         </div>
     </div>
+                  
     <br><br>
     <!--End Milkshake Seperate Per Product Page--> 
-
 </body>
 
 <?php 

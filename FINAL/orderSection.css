@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
-
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-html{
+html {
     font-size: 10px;
     scroll-behavior: smooth;
 }
 
-a{
+a {
     text-decoration: none;
     position: relative;
 }
 
-.container{
+.container {
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
 
 /* Header Section */
 
@@ -29,8 +29,7 @@ a{
 }
 
 .fixed-bg {
-    background-image: url('img/headerTapioca.png');
-    min-height: 400px;
+    background-image: url('img/trybg1.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -84,9 +83,12 @@ a{
     border-bottom: 2px solid rgb(78, 68, 34);
 }
 
+
 /* End Header Section */
 
+
 /* Milkshake Seperate Per Product Page */
+
 .center {
     margin: 0;
     position: absolute;
@@ -122,9 +124,10 @@ h6 {
 }
 
 .semi-card {
-    margin-top: 100px; 
-    border: 3px solid #836953; 
+    margin-top: 100px;
+    border: 3px solid #836953;
     border-radius: 5px;
+    background-color: antiquewhite;
 }
 
 .select-size,
@@ -149,7 +152,7 @@ input[class="review"] {
     padding: 12px;
     width: 17%;
     border-radius: 10px;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 input[type="radio"] {
@@ -211,5 +214,5 @@ input[type='checkbox']:checked:after {
     background: red;
 }
 
-/* End Milkshake Seperate Per Product Page */
 
+/* End Milkshake Seperate Per Product Page */
