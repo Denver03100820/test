@@ -103,12 +103,7 @@ include 'header.php';
             </div>
         </div>
     </div>
-<<<<<<< HEAD
-                  
-    <br><br>
-=======
     <br><br><br><br><br><br>
->>>>>>> ba50b7341af6f3f7cf605dd2b538f0fdd1de5c10
     <!--End Milkshake Seperate Per Product Page--> 
 </body>
 
