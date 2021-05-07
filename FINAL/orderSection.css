@@ -127,7 +127,7 @@ h6 {
     margin-top: 100px;
     border: 3px solid #836953;
     border-radius: 5px;
-    background-color: antiquewhite;
+    background-color: white;
 }
 
 .select-size,
@@ -151,6 +151,7 @@ h6 {
     height:30px;
     border-radius: 10px;
     cursor: pointer;
+    margin-left: 5px 
 }
 .quant {
     font-family: 'Comfortaa';
@@ -162,6 +163,7 @@ h6 {
     height:26px;
     border-radius: 3px;
     cursor: pointer;
+    
 }
 
 

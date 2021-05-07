@@ -28,7 +28,7 @@ include 'header.php';
                         </a>
                         <br><br>
                         <div class="textcolor"><center><h4><b>Choco Fudge Milkshake</b></h4></center><br>
-                        <center><h5>₱35.00 - Large Size</h5></center></div>
+                        <center></center></div>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@ include 'header.php';
                         </a>
                         <br><br>
                         <div class="textcolor"><center><h4><b>Choco Kisses Milkshake</b></h4></center><br>
-                        <center><h5>₱35.00 - Large Size</h5></center></div>
+                        <center></center></div>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@ include 'header.php';
                     </a>
                     <br><br>
                     <div class="textcolor"><center><h4><b>Black Forest Milkshake</b></h4></center><br>
-                    <center><h5>₱35.00 - Large Size</h5></center></div>
+                    <center></center></div>
                     </div>
                 </div>
             </div>
@@ -68,7 +68,7 @@ include 'header.php';
                         </a>
                         <br><br>
                         <div class="textcolor"><center><h4><b>Cookies N Cream Milkshake</b></h4></center><br>
-                        <center><h5>₱35.00 - Large Size</h5></center></div>
+                        <center></center></div>
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@ include 'header.php';
                         </a>
                         <br><br>
                         <div class="textcolor"><center><h4><b>Coffee Crumble Milkshake</b></h4></center><br>
-                        <center><h5>₱35.00 - Large Size</h5></center></div>
+                        <center></center></div>
                     </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@ include 'header.php';
                         </a>
                         <br><br>
                         <div class="textcolor"><center><h4><b>Melon Milkshake</b></h4></center><br>
-                        <center><h5>₱35.00 - Large Size</h5></center></div>
+                        <center></center></div>
                     </div>
                 </div>
             </div>
@@ -110,7 +110,7 @@ include 'header.php';
                         </a>
                         <br><br>
                         <div class="textcolor"><center><h4><b>Avocado Milkshake</b></h4></center><br>
-                        <center><h5>₱35.00 - Large Size</h5></center></div>
+                        <center></center></div>
                     </div>
                 </div>
             </div>
@@ -124,7 +124,7 @@ include 'header.php';
                         </a>
                         <br><br>
                         <div class="textcolor"><center><h4><b>Buko Pandan Milkshake</b></h4></center><br>
-                        <center><h5>₱35.00 - Large Size</h5></center></div>
+                        <center></center></div>
                     </div>
                 </div>
             </div>
@@ -138,7 +138,7 @@ include 'header.php';
                         </a>
                         <br><br>
                         <div class="textcolor"><center><h4><b>Ube Milkshake</b></h4></center><br>
-                        <center><h5>₱35.00 - Large Size</h5></center></div>
+                        <center></center></div>
                     </div>
                 </div>
             </div>
@@ -152,7 +152,7 @@ include 'header.php';
                         </a>
                         <br><br>
                         <div class="textcolor"><center><h4><b>Strawberry Milkshake</b></h4></center><br>
-                        <center><h5>₱35.00 - Large Size</h5></center></div>
+                        <center></center></div>
                     </div>
                 </div>
             </div>
@@ -166,7 +166,7 @@ include 'header.php';
                         </a>
                         <br><br>
                         <div class="textcolor"><center><h4><b>Buko Milkshake</b></h4></center><br>
-                        <center><h5>₱35.00 - Large Size</h5></center></div>
+                        <center></center></div>
                     </div>
                 </div>
             </div>

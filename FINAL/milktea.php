@@ -28,7 +28,7 @@ include 'header.php';
             </a>
             <br><br>
             <div class="textcolor"><center><h4><b>Classic Taro Milktea</b></h4></center><br>
-            <center><h5>₱100.00</h5></center></div>
+            <center></center></div>
           </div>
         </div>
       </div>
@@ -41,7 +41,7 @@ include 'header.php';
             </a>
             <br><br>
             <div class="textcolor"><center><h4><b>Classic Okinawa Milktea</b></h4></center><br>
-            <center><h5>₱100.00</h5></center></div>
+            <center></center></div>
           </div>
         </div>
       </div>
@@ -54,7 +54,7 @@ include 'header.php';
             </a>
             <br><br>
             <div class="textcolor"><center><h4><b>Hokkaido Milktea</b></h4></center><br>
-            <center><h5>₱100.00</h5></center></div>
+            <center></center></div>
           </div>
         </div>
       </div>
@@ -67,7 +67,7 @@ include 'header.php';
             </a>
             <br><br>
             <div class="textcolor"><center><h4><b>Chocolate Milktea</b></h4></center><br>
-            <center><h5>₱100.00</h5></center></div>
+            <center></center></div>
           </div>
         </div>
       </div>
@@ -81,7 +81,7 @@ include 'header.php';
             </a>
             <br><br>
             <div class="textcolor"><center><h4><b>Red Velvet Milktea</b></h4></center><br>
-            <center><h5>₱100.00</h5></center></div>
+            <center></center></div>
           </div>
         </div>
       </div>
@@ -95,7 +95,7 @@ include 'header.php';
             </a>
             <br><br>
             <div class="textcolor"><center><h4><b>Classic Wintermelon Milktea</b></h4></center><br>
-            <center><h5>₱100.00</h5></center></div>
+            <center></center></div>
           </div>
         </div>
       </div>
@@ -109,7 +109,7 @@ include 'header.php';
             </a>
             <br>
             <div class="textcolor"><center><h4><b>Premium Caramel Sugar Milktea</b></h4></center><br>
-            <center><h5>₱100.00</h5></center></div>
+            <center></center></div>
           </div>
         </div>
       </div>
@@ -123,7 +123,7 @@ include 'header.php';
             </a>
             <br><br>
             <div class="textcolor"><center><h4><b>Cookies N Cream Milktea</b></h4></center><br>
-            <center><h5>₱100.00</h5></center></div>
+            <center></center></div>
           </div>
         </div>
       </div>

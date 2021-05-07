@@ -22,60 +22,60 @@ include 'header.php';
             <div class="col-md-6" >
                 <div class="semi-card">
                     <div class="textcolor">
-                        <h2 style="margin-left: 3px; margin-top:5px">Choco Fudge Milkshake</h4><hr style="border-top: 1px solid; ">
-                        <p style="font-size:15px; margin-left: 5px">Be crazy and in love with our sweetest shake that is loaded with brownies and chocolate fudge that will make you stun for minutes.</p><br>
+                        <h2 style="margin-left: 7px; margin-top:5px">Choco Fudge Milkshake</h2><hr style="border-top: 1px solid; ">
+                        <p style="font-size:15px; margin-left: 10px">Be crazy and in love with our sweetest shake that is loaded with brownies and chocolate fudge that will make you stun for minutes.</p><br>
                         
                         <form action="milkshChocoFudge.php" method="POST">
 
-                        <div style="margin-left: 3px" aria-required="true"> <b style="font-size:13px;">Available Size/s:</b><br><br>
+                        <div style="margin-left: 7px" aria-required="true"> <b style="font-size:15px;">Available Size/s:</b><br><br>
                         
-                        <input type="radio" style="margin-left: 10px " id="small" name="sizes" value="small">
-                        <label for="small" style="font-size:12px; padding:5px ">REGULAR <i style="margin-left: 367px" > +₱110.00</i></label><br>
-                        <input type="radio" style="margin-left: 10px " id="medium" name="sizes" value="medium" >
-                        <label for="medium" style="font-size:12px; padding:5px">LARGE <i style="margin-left: 382px" > +₱125.00</i></label><br>
-                        <input type="radio" style="margin-left: 10px " id="large" name="sizes" value="large">
-                        <label for="large"  style="font-size:12px; padding:5px">EXTRA LARGE <i style="margin-left: 344px" > +₱140.00</i></label><br>
+                        <input type="radio" style="margin-left: 15px " id="small" name="sizes" value="small">
+                        <label for="small" style="font-size:13px; padding:5px ">REGULAR <i style="margin-left: 350px" > +₱110.00</i></label><br>
+                        <input type="radio" style="margin-left: 15px " id="medium" name="sizes" value="medium" >
+                        <label for="medium" style="font-size:13px; padding:5px">LARGE <i style="margin-left: 368px" > +₱125.00</i></label><br>
+                        <input type="radio" style="margin-left: 15px " id="large" name="sizes" value="large">
+                        <label for="large"  style="font-size:13px; padding:5px">EXTRA LARGE <i style="margin-left: 328px" > +₱140.00</i></label><br>
                             <br><br></div>
 
 
  
-                        <div style="margin-left: 3px " ><b style="font-size:13px;">Sugar Level/s:</b><br><br>
+                        <div style="margin-left: 7px " ><b style="font-size:15px;">Sugar Level/s:</b><br><br>
 
-                        <input type="radio" style="margin-left: 10px " id="1h" name="slevel" value="1h">
-                        <label for="small" style="font-size:12px; padding:5px">  100 %   </label>
+                        <input type="radio" style="margin-left: 15px " id="1h" name="slevel" value="1h">
+                        <label for="small" style="font-size:13px; padding:5px">  100 %   </label>
                         <input type="radio" id="7payb" name="slevel" value="7payb">
-                        <label for="medium" style="font-size:12px; padding:5px">   75 % </label>
+                        <label for="medium" style="font-size:13px; padding:5px">   75 % </label>
                         <input type="radio" id="pipti" name="slevel" value="pipti">
-                        <label for="large" style="font-size:12px; padding:5px">   50 % </label>
+                        <label for="large" style="font-size:13px; padding:5px">   50 % </label>
                         <input type="radio" id="2payb" name="slevel" value="2payb">
-                        <label for="large" style="font-size:12px; padding:5px">   25 % </label>
+                        <label for="large" style="font-size:13px; padding:5px">   25 % </label>
                         <input type="radio" id="zero" name="slevel" value="zero">
-                        <label for="large" style="font-size:12px; padding:5px">   0 %  </label><br>
+                        <label for="large" style="font-size:13px; padding:5px">   0 %  </label><br>
                             <br><br></div>
 
 
 
-                        <b style="font-size:13px; margin-left: 3px ">Add ons:</b><br><br>
+                        <b style="font-size:15px; margin-left: 7px ">Add ons:</b><br><br>
 
-                            <input type="checkbox" style="margin-left: 10px " id="blackpearl" name="blackpearl" value="blackpearl">
-                            <label for="blackpearl" style="font-size:13px;  padding:5px">Black Pearl <i style="margin-left: 360px">+₱15.00</i></label><br>
-                            <input type="checkbox" style="margin-left: 10px " id="oreo" name="oreo" value="oreo">
-                            <label for="oreo" style="font-size:13px;  padding:5px">Oreo <i style="margin-left: 392px">+₱15.00</i></label><br>
-                            <input type="checkbox" style="margin-left: 10px " id="mallows" name="mallows" value="mallows">
-                            <label for="mallows" style="font-size:13px;  padding:5px">Mallows <i style="margin-left: 375px">+₱15.00</i></label><br>
-                            <input type="checkbox" style="margin-left: 10px " id="chocochips" name="chocochips" value="chocochips">
-                            <label for="chocochips" style="font-size:13px; padding:5px">Choco Chips <i style="margin-left: 350px">+₱15.00</i></label><br>
-                            <input type="checkbox" style="margin-left: 10px " id="nata" name="nata" value="nata">
-                            <label for="nata" style="font-size:13px; padding:5px">Nata <i style="margin-left: 395px">+₱15.00</i></label><br>
-                            <input type="checkbox" style="margin-left: 10px " id="cream" name="cream" value="cream">
-                            <label for="cream" style="font-size:13px; padding:5px">Cream Cheese <i style="margin-left: 340px">+₱15.00</i></label><br>
-                            <input type="checkbox" style="margin-left: 10px " id="pudding" name="pudding" value="pudding">
-                            <label for="pudding" style="font-size:13px; padding:5px">Pudding <i style="margin-left: 375px">+₱15.00</i></label><br>
-                            <input type="checkbox" style="margin-left: 10px " id="red" name="red" value="red">
-                            <label for="red" style="font-size:13px; padding:5px">Red Beans <i style="margin-left: 364px">+₱15.00</i></label><br><br>
+                            <input type="checkbox" style="margin-left: 15px " id="blackpearl" name="blackpearl" value="blackpearl">
+                            <label for="blackpearl" style="font-size:14px;  padding:5px">Black Pearl <i style="margin-left: 350px">+₱15.00</i></label><br>
+                            <input type="checkbox" style="margin-left: 15px " id="oreo" name="oreo" value="oreo">
+                            <label for="oreo" style="font-size:14px;  padding:5px">Oreo <i style="margin-left: 384px">+₱15.00</i></label><br>
+                            <input type="checkbox" style="margin-left: 15px " id="mallows" name="mallows" value="mallows">
+                            <label for="mallows" style="font-size:14px;  padding:5px">Mallows <i style="margin-left: 364px">+₱15.00</i></label><br>
+                            <input type="checkbox" style="margin-left: 15px " id="chocochips" name="chocochips" value="chocochips">
+                            <label for="chocochips" style="font-size:14px; padding:5px">Choco Chips <i style="margin-left: 338px">+₱15.00</i></label><br>
+                            <input type="checkbox" style="margin-left: 15px " id="nata" name="nata" value="nata">
+                            <label for="nata" style="font-size:14px; padding:5px">Nata <i style="margin-left: 386px">+₱15.00</i></label><br>
+                            <input type="checkbox" style="margin-left: 15px " id="cream" name="cream" value="cream">
+                            <label for="cream" style="font-size:14px; padding:5px">Cream Cheese <i style="margin-left: 327px">+₱15.00</i></label><br>
+                            <input type="checkbox" style="margin-left: 15px " id="pudding" name="pudding" value="pudding">
+                            <label for="pudding" style="font-size:14px; padding:5px">Pudding <i style="margin-left: 363px">+₱15.00</i></label><br>
+                            <input type="checkbox" style="margin-left: 15px " id="red" name="red" value="red">
+                            <label for="red" style="font-size:14px; padding:5px">Red Beans <i style="margin-left: 352px">+₱15.00</i></label><br><br>
 
-                        <b for="quan" style="font-size:13px; margin-left: 3px ">Quantity :</b>
-                        <button class="quant"   onclick="decrement()"><b>-</b></button>
+                        <b for="quan" style="font-size:15px; margin-left: 7px ">Quantity :</b>
+                        <button class="quant" style="margin-left: 4px "  onclick="decrement()"><b>-</b></button>
                         <input style="text-align:center; width: 15% ; height: 25px;" id=Input type=number min=1 max=100 value=1>
                         <button class="quant"  onclick="increment()"><b>+</b></button>
 
