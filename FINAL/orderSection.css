@@ -112,15 +112,6 @@ p {
     font-size: 13px;
 }
 
-h4 {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-h6 {
-    font-size: 12px;
-}
-
 .semi-card {
     margin-top: 100px; 
     border: 3px solid #836953; 
@@ -137,19 +128,6 @@ h6 {
     border: none;
     border-bottom: 1px #725527 solid;
     background-color: white;
-}
-
-input[class="review"] {
-    font-family: 'Comfortaa';
-    font-size: large;
-    color: white;
-    background: #987654;
-    border: darkslategray 1px solid;
-    text-align: center;
-    padding: 12px;
-    width: 17%;
-    border-radius: 10px;
-    cursor: pointer; 
 }
 
 input[type="radio"] {
