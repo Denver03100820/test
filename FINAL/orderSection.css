@@ -157,9 +157,6 @@ p {
     
 }
 
-
-<<<<<<< HEAD
-=======
 input[class="review"] {
     font-family: 'Comfortaa';
     font-size: large;
@@ -173,7 +170,6 @@ input[class="review"] {
     cursor: pointer;
 }
 
->>>>>>> 305bcc072cf1d90e7ae2c0009c7e8fa2785fb1fb
 input[type="radio"] {
     transform: scale(1.5);
 }
