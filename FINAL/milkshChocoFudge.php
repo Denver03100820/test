@@ -39,16 +39,16 @@ include 'header.php';
  
                         <div style="margin-left: 7px " ><b style="font-size:15px;">Sugar Level/s:</b><br><br>
 
-                        <input type="radio" style="margin-left: 15px " id="1h" name="slevel" value="1h">
-                        <label for="small" style="font-size:13px; padding:5px">  100 %   </label>
-                        <input type="radio" id="7payb" name="slevel" value="7payb">
-                        <label for="medium" style="font-size:13px; padding:5px">   75 % </label>
-                        <input type="radio" id="pipti" name="slevel" value="pipti">
-                        <label for="large" style="font-size:13px; padding:5px">   50 % </label>
-                        <input type="radio" id="2payb" name="slevel" value="2payb">
-                        <label for="large" style="font-size:13px; padding:5px">   25 % </label>
-                        <input type="radio" id="zero" name="slevel" value="zero">
-                        <label for="large" style="font-size:13px; padding:5px">   0 %  </label><br>
+                        <input type="radio" style="margin-left: 15px " id="1h" name="slevel" value="100">
+                        <label for="small" style="font-size:13px; padding:5px">  100%   </label>
+                        <input type="radio" id="7payb" name="slevel" value="75">
+                        <label for="medium" style="font-size:13px; padding:5px">   75% </label>
+                        <input type="radio" id="pipti" name="slevel" value="50">
+                        <label for="large" style="font-size:13px; padding:5px">   50% </label>
+                        <input type="radio" id="2payb" name="slevel" value="25">
+                        <label for="large" style="font-size:13px; padding:5px">   25% </label>
+                        <input type="radio" id="zero" name="slevel" value="0">
+                        <label for="large" style="font-size:13px; padding:5px">   0%  </label><br>
                             <br><br></div>
 
 
@@ -94,12 +94,9 @@ include 'header.php';
                     </div>
                 </div>
                 <br><br>
-<<<<<<< HEAD
-=======
             
                 </div>
                 <br>
->>>>>>> 305bcc072cf1d90e7ae2c0009c7e8fa2785fb1fb
                   
             </div>
         </div>
