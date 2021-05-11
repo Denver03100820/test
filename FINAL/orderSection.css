@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
-
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-html{
+html {
     font-size: 10px;
     scroll-behavior: smooth;
 }
 
-a{
+a {
     text-decoration: none;
     position: relative;
 }
 
-.container{
+.container {
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
 
 /* Header Section */
 
@@ -29,8 +29,7 @@ a{
 }
 
 .fixed-bg {
-    background-image: url('img/headerTapioca.png');
-    min-height: 400px;
+    background-image: url('img/trybg1.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -84,9 +83,12 @@ a{
     border-bottom: 2px solid rgb(78, 68, 34);
 }
 
+
 /* End Header Section */
 
+
 /* Milkshake Seperate Per Product Page */
+
 .center {
     margin: 0;
     position: absolute;
@@ -113,9 +115,10 @@ p {
 }
 
 .semi-card {
-    margin-top: 100px; 
-    border: 3px solid #836953; 
+    margin-top: 100px;
+    border: 3px solid #836953;
     border-radius: 5px;
+    background-color: white;
 }
 
 .select-size,
@@ -129,7 +132,48 @@ p {
     border-bottom: 1px #725527 solid;
     background-color: white;
 }
+.addcart {
+    font-family: 'Comfortaa';
+    font-size: 10px;
+    color: black;
+    background: #ffe4e1;
+    border: 1px solid gray;
+    width: 30%;
+    height:30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 5px 
+}
+.quant {
+    font-family: 'Comfortaa';
+    font-size: 10px;
+    color: black;
+    background: #ffe4e1;
+    border: 1px solid gray;
+    width: 22px;
+    height:26px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
 
+
+<<<<<<< HEAD
+=======
+input[class="review"] {
+    font-family: 'Comfortaa';
+    font-size: large;
+    color: white;
+    background: #987654;
+    border: darkslategray 1px solid;
+    text-align: center;
+    padding: 12px;
+    width: 20%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+>>>>>>> 305bcc072cf1d90e7ae2c0009c7e8fa2785fb1fb
 input[type="radio"] {
     transform: scale(1.5);
 }
@@ -189,5 +233,5 @@ input[type='checkbox']:checked:after {
     background: red;
 }
 
-/* End Milkshake Seperate Per Product Page */
 
+/* End Milkshake Seperate Per Product Page */

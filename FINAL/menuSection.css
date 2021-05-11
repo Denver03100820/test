@@ -32,15 +32,6 @@ a {
     background: #fadadd !important;
 }
 
-.fixed-bg {
-    background-image: url('img/headerTapioca.png');
-    min-height: 400px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .section-intro {
     padding-top: 130px;
     display: block;
@@ -86,6 +77,7 @@ a {
 #navbarMenu a:hover {
     border-bottom: 2px solid rgb(78, 68, 34);
 }
+
 
 /* End Header Section */
 

@@ -6,8 +6,9 @@ include 'header.php';
   <link rel="stylesheet" href="orderSection.css" type="text/css">
 </head>
 
-<body class="bodycolor">
+<body class="fixed-bg">
 
+    <br><br><br><br><br><br><br>
     <!--Milkshake Seperate Per Product Page-->
     <div class="container" style="margin-top:30px">
         
@@ -18,65 +19,93 @@ include 'header.php';
             </div>
     
             <div class="col-md-6">
-                <div class="card" style="margin-top: 100px;">
-                    <div class="card-body">
+            <div class="semi-card">
                         <div class="textcolor">
-                            <h4>Buko Milkshake</h4><hr style="border-top: 1px solid;">
-                            <p>Taste this refreshing shake, the best tasting drink is made from the famous coconut.</p><br>
+                            <h2 style="margin-left: 7px; margin-top:5px">Buko Milkshake</h2><hr style="border-top: 1px solid;">
+                            <p style="font-size:15px; margin-left: 10px">Taste this refreshing shake, the best tasting drink is made from the famous coconut.</p><br>
                             
-                            <h3>Ingredients: </h3><br>
-                            <h5>Coconut Milk, Coconut Meat, Evaporated Milk, White Sugar</h5><br><br>
+                             <form action="milkshBuko.php" method="POST">
 
-                            <h3>Benefits: </h3><br>
-                            <h5>The benefits of drinking milkshake is essentially good for the bones and teeth health because it supplies calcium our body needs.</h5><br><br>
+                        <div style="margin-left: 7px" aria-required="true"> <b style="font-size:15px;">Available Size/s:</b><br><br>
+                        
+                        <input type="radio" style="margin-left: 15px " id="small" name="sizes" value="small">
+                        <label for="small" style="font-size:13px; padding:5px ">REGULAR <i style="margin-left: 350px" > +₱110.00</i></label><br>
+                        <input type="radio" style="margin-left: 15px " id="medium" name="sizes" value="medium" >
+                        <label for="medium" style="font-size:13px; padding:5px">LARGE <i style="margin-left: 368px" > +₱125.00</i></label><br>
+                        <input type="radio" style="margin-left: 15px " id="large" name="sizes" value="large">
+                        <label for="large"  style="font-size:13px; padding:5px">EXTRA LARGE <i style="margin-left: 328px" > +₱140.00</i></label><br>
+                            <br><br></div>
 
-                            <b>Available Size/s: </b><br><br>
-                            <select class="select-size" id="size">
-                                <option value="small"><h6>Small ₱25.00</h6></option><br>
-                                <option value="large"><h6>Large ₱35.00</h6></option><br>
-                                <option value="xl"><h6>Extra Large ₱45.00</h6></option><br>
-                            </select><br><br>
 
-                            <b>With Toppings</b><br><br>
-                            <select class="select-toppings" id="toppings">
-                                <option value="smallt"><h6>Small ₱30.00</h6></option><br>
-                                <option value="larget"><h6>Large ₱40.00</h6></option><br>
-                                <option value="xlt"><h6>Extra Large ₱50.00</h6></option><br>
-                            </select><br><br>
+ 
+                        <div style="margin-left: 7px " ><b style="font-size:15px;">Sugar Level/s:</b><br><br>
 
-                            <b>Add ons:</b><br><br>
-                            <select class="select-addons" id="addons">
-                                <option value="blackpearl"><h6>Black Pearl +₱10.00</h6></option><br>
-                                <option value="oreo"><h6>Oreo +₱5.00</h6></option><br>
-                                <option value="mallows"><h6>Mallows +₱5.00</h6></option><br>
-                                <option value="chocochips"><h6>Choco Chips +₱5.00</h6></option>
-                            </select><br>
+                        <input type="radio" style="margin-left: 15px " id="1h" name="slevel" value="1h">
+                        <label for="small" style="font-size:13px; padding:5px">  100 %   </label>
+                        <input type="radio" id="7payb" name="slevel" value="7payb">
+                        <label for="medium" style="font-size:13px; padding:5px">   75 % </label>
+                        <input type="radio" id="pipti" name="slevel" value="pipti">
+                        <label for="large" style="font-size:13px; padding:5px">   50 % </label>
+                        <input type="radio" id="2payb" name="slevel" value="2payb">
+                        <label for="large" style="font-size:13px; padding:5px">   25 % </label>
+                        <input type="radio" id="zero" name="slevel" value="zero">
+                        <label for="large" style="font-size:13px; padding:5px">   0 %  </label><br>
+                            <br><br></div>
+
+
+
+                        <b style="font-size:15px; margin-left: 7px ">Add ons:</b><br><br>
+
+                            <input type="checkbox" style="margin-left: 15px " id="blackpearl" name="blackpearl" value="blackpearl">
+                            <label for="blackpearl" style="font-size:14px;  padding:5px">Black Pearl <i style="margin-left: 350px">+₱15.00</i></label><br>
+                            <input type="checkbox" style="margin-left: 15px " id="oreo" name="oreo" value="oreo">
+                            <label for="oreo" style="font-size:14px;  padding:5px">Oreo <i style="margin-left: 384px">+₱15.00</i></label><br>
+                            <input type="checkbox" style="margin-left: 15px " id="mallows" name="mallows" value="mallows">
+                            <label for="mallows" style="font-size:14px;  padding:5px">Mallows <i style="margin-left: 364px">+₱15.00</i></label><br>
+                            <input type="checkbox" style="margin-left: 15px " id="chocochips" name="chocochips" value="chocochips">
+                            <label for="chocochips" style="font-size:14px; padding:5px">Choco Chips <i style="margin-left: 338px">+₱15.00</i></label><br>
+                            <input type="checkbox" style="margin-left: 15px " id="nata" name="nata" value="nata">
+                            <label for="nata" style="font-size:14px; padding:5px">Nata <i style="margin-left: 386px">+₱15.00</i></label><br>
+                            <input type="checkbox" style="margin-left: 15px " id="cream" name="cream" value="cream">
+                            <label for="cream" style="font-size:14px; padding:5px">Cream Cheese <i style="margin-left: 327px">+₱15.00</i></label><br>
+                            <input type="checkbox" style="margin-left: 15px " id="pudding" name="pudding" value="pudding">
+                            <label for="pudding" style="font-size:14px; padding:5px">Pudding <i style="margin-left: 363px">+₱15.00</i></label><br>
+                            <input type="checkbox" style="margin-left: 15px " id="red" name="red" value="red">
+                            <label for="red" style="font-size:14px; padding:5px">Red Beans <i style="margin-left: 352px">+₱15.00</i></label><br><br>
+
+                        <b for="quan" style="font-size:15px; margin-left: 7px ">Quantity :</b>
+                        <button class="quant" style="margin-left: 4px "  onclick="decrement()"><b>-</b></button>
+                        <input style="text-align:center; width: 15% ; height: 25px;" id=Input type=number min=1 max=100 value=1>
+                        <button class="quant"  onclick="increment()"><b>+</b></button>
+
+						<script>
+							function increment() {
+							document.getElementById('Input').stepUp();
+						}
+							function decrement() {
+							document.getElementById('Input').stepDown();
+						}
+						</script>
+							
+                            <button class="addcart"  type="submit">
+                            <a class="nav-link" href="Cart.php" ><img src="https://img.icons8.com/material-rounded/22/000000/shopping-cart.png"/>ADD TO CART</a></button><br><br>
+							
                         </div>
+                    </form>
                     </div>
                 </div>
                 <br><br>
-                
-                <div class="textcolor">
-                    <form>
-                        <label for="review"><b>Write A Review:</b></label>
-                        <hr style="border-top: 1px solid;">
-                        <form>
-                            <textarea rows="12" cols="108" name="review" id="review"></textarea>
-                            <br><br>
-                            <input class="review" type="reset" value="SUBMIT">
-                        </form>
-                    </form>
+            
                 </div>
                 <br>
                   
             </div>
         </div>
     </div>
-    <br><br>
-    <!--End Milkshake Seperate Per Product Page-->     
-
+    <br><br><br><br><br><br>
+    <!--End Milkshake Seperate Per Product Page--> 
 </body>
-      
+
 <?php 
 include 'footer.php';
-?>  
+?>
