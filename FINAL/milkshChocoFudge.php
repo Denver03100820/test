@@ -34,24 +34,20 @@ include 'header.php';
                         <input type="radio" style="margin-left: 15px " id="large" name="sizes" value="large">
                         <label for="large"  style="font-size:13px; padding:5px">EXTRA LARGE <i style="margin-left: 328px" > +₱140.00</i></label><br>
                             <br><br></div>
-
-
  
                         <div style="margin-left: 7px " ><b style="font-size:15px;">Sugar Level/s:</b><br><br>
 
                         <input type="radio" style="margin-left: 15px " id="1h" name="slevel" value="1h">
-                        <label for="small" style="font-size:13px; padding:5px">  100 %   </label>
+                        <label for="small" style="font-size:13px; padding:5px">  100%   </label>
                         <input type="radio" id="7payb" name="slevel" value="7payb">
-                        <label for="medium" style="font-size:13px; padding:5px">   75 % </label>
+                        <label for="medium" style="font-size:13px; padding:5px">   75% </label>
                         <input type="radio" id="pipti" name="slevel" value="pipti">
-                        <label for="large" style="font-size:13px; padding:5px">   50 % </label>
+                        <label for="large" style="font-size:13px; padding:5px">   50% </label>
                         <input type="radio" id="2payb" name="slevel" value="2payb">
-                        <label for="large" style="font-size:13px; padding:5px">   25 % </label>
+                        <label for="large" style="font-size:13px; padding:5px">   25% </label>
                         <input type="radio" id="zero" name="slevel" value="zero">
-                        <label for="large" style="font-size:13px; padding:5px">   0 %  </label><br>
+                        <label for="large" style="font-size:13px; padding:5px">   0%  </label><br>
                             <br><br></div>
-
-
 
                         <b style="font-size:15px; margin-left: 7px ">Add ons:</b><br><br>
 
@@ -73,7 +69,7 @@ include 'header.php';
                             <label for="red" style="font-size:14px; padding:5px">Red Beans <i style="margin-left: 352px">+₱15.00</i></label><br><br>
 
                         <b for="quan" style="font-size:15px; margin-left: 7px ">Quantity :</b>
-                        <button class="quant" style="margin-left: 4px "  onclick="decrement()"><b>-</b></button>
+                        <button class="quant" style="margin-left: 4px " onclick="decrement()"><b>-</b></button>
                         <input style="text-align:center; width: 15% ; height: 25px;" id=Input type=number min=1 max=100 value=1>
                         <button class="quant"  onclick="increment()"><b>+</b></button>
 
@@ -94,12 +90,9 @@ include 'header.php';
                     </div>
                 </div>
                 <br><br>
-<<<<<<< HEAD
-=======
             
                 </div>
                 <br>
->>>>>>> 305bcc072cf1d90e7ae2c0009c7e8fa2785fb1fb
                   
             </div>
         </div>
