@@ -90,7 +90,7 @@ include 'header.php';
 						</script>
 							
                             <button class="addcart"  type="submit">
-                            <a class="nav-link" href="Cart.php" ><img src="https://img.icons8.com/material-rounded/22/000000/shopping-cart.png"/>ADD TO CART</a></button><br><br>
+                            <a class="nav-link" href="milkshAvocado.php" ><img src="https://img.icons8.com/material-rounded/22/000000/shopping-cart.png"/>ADD TO CART</a></button><br><br>
 							
                         </div>
                     </form>
