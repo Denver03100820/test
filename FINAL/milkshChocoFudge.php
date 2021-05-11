@@ -12,9 +12,7 @@ include 'header.php';
    <!--Milkshake Seperate Per Product Page-->
 
    <div class="container" style="margin-top:30px">
-        
         <div class="row">
-    
             <div class="col-md-6">
                 <img src="img/ChocoFudge(bg).png" class="centerimage">   
             </div>
@@ -96,9 +94,12 @@ include 'header.php';
                     </div>
                 </div>
                 <br><br>
+<<<<<<< HEAD
+=======
             
                 </div>
                 <br>
+>>>>>>> 305bcc072cf1d90e7ae2c0009c7e8fa2785fb1fb
                   
             </div>
         </div>
